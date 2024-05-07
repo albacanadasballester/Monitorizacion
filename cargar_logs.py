@@ -3,13 +3,13 @@ import requests
 
 # Dirección IP y puerto del clúster de OpenSearch
 opensearch_ip = '192.168.104.41'
-opensearch_port = 5601
+opensearch_port = 5013
 
 # URL del endpoint en OpenSearch para enviar los datos
 url = f'http://{opensearch_ip}:{opensearch_port}/nombre_de_indice/_doc'
 
 # Abre el archivo en modo lectura
-with open('Linux.log', 'r') as archivo:
+with open('Linux.log', 'r',encoding='iso-8859-1') as archivo:
     # Lee las primeras 10 líneas del archivo
     lineas = archivo.readlines()[:10]
 
