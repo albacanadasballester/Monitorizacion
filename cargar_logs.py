@@ -14,4 +14,4 @@ sock = socket.socket(socket.AF_INET, # Internet
 for linea in lineas:
     print(f'voy a insertar la linea {linea}')
     mensaje = linea.encode() #cambiar la codificacion
-                            sock.sendto(mensaje, (UDP_IP, UDP_PORT))
+    sock.sendto(mensaje, (UDP_IP, UDP_PORT))
