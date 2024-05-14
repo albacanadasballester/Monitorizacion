@@ -1,9 +1,9 @@
-import socket
+import socket 
 UDP_IP = "192.168.104.41"
 UDP_PORT = 5013
 
 # Abre el archivo en modo lectura
-with open('Linux.log', 'r',encoding='iso-8859-1') as archivo:
+with open('muestra.log', 'r',encoding='iso-8859-1') as archivo:
     lineas = archivo.readlines()
 
 sock = socket.socket(socket.AF_INET, # Internet
