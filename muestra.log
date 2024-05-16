@@ -1,0 +1,10 @@
+Jun  9 06:06:20 combo syslogd 1.4.1: restart.
+Jun  9 06:06:20 combo syslog: syslogd startup succeeded
+Jun  9 06:06:20 combo syslog: klogd startup succeeded
+Jun  9 06:06:20 combo kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Jun  9 06:06:20 combo kernel: Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004
+Jun  9 06:06:20 combo kernel: BIOS-provided physical RAM map:
+Jun  9 06:06:20 combo kernel:  BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)
+Jun  9 06:06:20 combo kernel:  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Jun  9 06:06:20 combo kernel:  BIOS-e820: 0000000000100000 - 0000000007eae000 (usable)
+Jun  9 06:06:20 combo kernel:  BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved)
