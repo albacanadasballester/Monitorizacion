@@ -22,7 +22,7 @@ response = opensearch_client.search(
     body={
         "query": {
             "match": {
-                "message": "hello!"
+                "message": "alba"
             }
         }
     }
