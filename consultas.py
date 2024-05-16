@@ -1,7 +1,6 @@
-from elasticsearch import Elasticsearch
-from elasticsearch_dsl import Search
 from opensearchpy import OpenSearch
-
+from opensearch_dsl import Search
+# Configurar la conexión a OpenSearch
 host = "192.168.104.41"
 #host = 'https://localhost'
 port= 9200
@@ -17,14 +16,19 @@ opensearch_client = OpenSearch(
     ssl_show_warn = False  
 )
 
-# Crear una consulta de búsqueda
-s = Search(using=opensearch_client, index='syslog') \
-   .query('match', message='hello!')
-
-# Ejecutar la consulta
-response = s.execute()
+# Realizar una consulta de búsqueda
+response = opensearch_client.search(
+    index='syslog',
+    body={
+        "query": {
+            "match": {
+                "message": "hello!"
+            }
+        }
+    }
+)
 
 # Iterar sobre los resultados
-for hit in response:
+for hit in response['hits']['hits']:
     print(hit)
 
