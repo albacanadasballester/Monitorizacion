@@ -22,7 +22,9 @@ with open('muestra.log', 'r',encoding='iso-8859-1') as archivo:
 for linea in lineas:
     print(f'voy a insertar la linea {linea}')
     log_json = {
-        "message" : linea.strip()
+            "host":"localhost",
+            "message" : linea.strip(),
+            "client_addr": host
         
         }
     opensearch_client.index(index="syslog",body=log_json)
