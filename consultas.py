@@ -44,3 +44,7 @@ for hit in response['hits']['hits']:
 
 # Imprimir los resultados en formato JSON
 print(json.dumps(resultados, indent=2))
+
+# Escribir los resultados en un archivo JSON
+with open('resultados.json', 'w') as f:
+    json.dump(resultados, f, indent=2)
