@@ -24,7 +24,7 @@ response = opensearch_client.search(
     body={
         "query": {
             "match": {
-                "message": "sshd"
+                "message": "hello"
             }
         }
     }
@@ -46,5 +46,5 @@ for hit in response['hits']['hits']:
 print(json.dumps(resultados, indent=2))
 
 # Escribir los resultados en un archivo JSON
-with open('resultados_sshd.json', 'w') as f:
+with open('resultados.json', 'w') as f:
     json.dump(resultados, f, indent=2)

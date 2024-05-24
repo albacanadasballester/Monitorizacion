@@ -1,0 +1,102 @@
+[
+  {
+    "_index": "syslog",
+    "_id": "WolSlY8BavM8aBHeUPqY",
+    "_score": 2.5191483,
+    "_source": {
+      "host": "localhost",
+      "message": "Sep 28 09:08:57 combo sshd: sshd -TERM succeeded",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "h4pSlY8BavM8aBHeZAAh",
+    "_score": 2.5191483,
+    "_source": {
+      "host": "localhost",
+      "message": "Oct 25 10:06:54 combo sshd: sshd -TERM succeeded",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "74pTlY8BavM8aBHeETVm",
+    "_score": 2.5191483,
+    "_source": {
+      "host": "localhost",
+      "message": "Dec  6 12:20:45 combo sshd: sshd -TERM succeeded",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "AopTlY8BavM8aBHeLj-d",
+    "_score": 2.5191483,
+    "_source": {
+      "host": "localhost",
+      "message": "Jan 26 12:20:17 combo sshd: sshd -TERM succeeded",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "c4lSlY8BavM8aBHeNPEx",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 08:58:56 combo sshd(pam_unix)[16455]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "dolSlY8BavM8aBHeNPE6",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 08:59:26 combo sshd(pam_unix)[16458]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "eYlSlY8BavM8aBHeNPFE",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 08:59:56 combo sshd(pam_unix)[16461]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "fYlSlY8BavM8aBHeNPFT",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 09:00:27 combo sshd(pam_unix)[16465]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "f4lSlY8BavM8aBHeNPFa",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 09:00:27 combo sshd(pam_unix)[16464]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  },
+  {
+    "_index": "syslog",
+    "_id": "g4lSlY8BavM8aBHeNPFm",
+    "_score": 2.2602181,
+    "_source": {
+      "host": "localhost",
+      "message": "Aug  7 09:00:58 combo sshd(pam_unix)[16479]: service(sshd) ignoring max retries; 8 > 3",
+      "client_addr": "192.168.104.41"
+    }
+  }
+]

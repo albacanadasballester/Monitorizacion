@@ -15,7 +15,7 @@ opensearch_client = OpenSearch(
 )
 
 # Abre el archivo en modo lectura
-with open('muestra.log', 'r',encoding='iso-8859-1') as archivo:
+with open('Linux.log', 'r',encoding='iso-8859-1') as archivo:
     lineas = archivo.readlines()
 
 # Itera sobre cada línea y envíala a OpenSearch
